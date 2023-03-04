@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+    <link href="{{ 'assets/css/style.css' |  relative_url }}" rel="stylesheet">
+  </head>
+  <body>
+    <section clas="main">
+      <div class="center-box-container">
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </section>
+  </body>
+</html>
+
