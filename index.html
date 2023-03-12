@@ -2,15 +2,11 @@
 layout: center
 ---
 
-{% if jekyll.environment == 'development' %}
-  {%- assign path = '/' %}
-{% endif %}
-
 <img
-  src="{{ path }}assets/logo-120.png"
+  src="/assets/logo-120.png"
   width="120"
-  alt="Glossy Nail Salon & Spa"
-  title="Glossy Nail Salon & Spa" />
+  alt="{{ site.title }}"
+  title="{{ site.title }}" />
 
 <div class="main-logo">
   <h1>Glossy</h1>
